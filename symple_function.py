@@ -7,6 +7,10 @@ def subtract(num1,num2):
 def add(num1,num2):
     return num1 + num2
 
+# multi both variables
+def multiply(num1,num2):
+    return num1 * num2
+
 # function devides num1 by num2 and returns error message if num2 is 0
 def divide(num1,num2):
     return num1 / num2
