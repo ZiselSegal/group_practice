@@ -18,7 +18,7 @@ Contains the core mathematical operations:
 Addition (+),  Subtraction (-),Multiplication (*), Division (/),
 Exponentiation (Power), Square Root,  Absolute Value.
 4. advance_functions.py
-contains the advanced geometry and area calculations:
+Contains the advanced geometry and area calculations:
 Triangle Area, Square Area, Rectangle Area, Circle Area.
 
 ## How to run the program
