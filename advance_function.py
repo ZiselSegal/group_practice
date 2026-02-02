@@ -7,7 +7,7 @@ def calc_circle_area(radius):
         return pi * radius ** 2
     
 def calc_triangle_area(hight,base):
-    if hight or base < 0:
+    if hight < 0 or base < 0:
         return 'error cant have negative values in geometric shapes'
     return hight * base / 2
     
