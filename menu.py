@@ -101,7 +101,7 @@ def menu():
                         print(f"|{a}|={result}")
                         break
                     except ValueError:
-                        print("please eneter a number notr a string ")
+                        print("please eneter a number not a string ")
             case 8:
                 while True:
                     try:
