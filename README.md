@@ -21,6 +21,6 @@ Exponentiation (Power), Square Root,  Absolute Value.
 contains the advanced geometry and area calculations:
 Triangle Area, Square Area, Rectangle Area, Circle Area.
 
-## how To run the program
+## How to run the program
 execute: python main.py
 
