@@ -16,3 +16,7 @@ def divide(num1,num2):
 #returns the num1 in power of num
 def power(num1,num2):
     return num1 ** num2
+
+#returns the absolute value of num
+def absolute_val(num1):
+    return abs(num1)
