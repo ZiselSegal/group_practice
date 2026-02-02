@@ -6,18 +6,19 @@ def menu():
     while True:
         try:
             func_choice = input("""please choose which of the following functions: 
-                                                            1. multiply function
-                                                            2. divide function
-                                                            3. add function
-                                                            4. subtraction function
-                                                            5. 2 variable power function
-                                                            6. 2 variable root function
-                                                            7. absolute value function
-                                                            8. area of triangle
-                                                            9. area of rectangle/square function
-                                                            10. are of circe function 
-                                                            11. to exit program
-                                """)
+                                
+                                    1. multiply function
+                                    2. divide function
+                                    3. add function
+                                    4. subtraction function
+                                    5. 2 variable power function
+                                    6. 2 variable root function
+                                    7. absolute value function
+                                    8. area of triangle
+                                    9. area of rectangle/square function
+                                    10. are of circe function 
+                                    11. to exit program
+                                         """)
             func_choice = int(func_choice)
             break
         except ValueError:
@@ -89,7 +90,7 @@ def menu():
                         print(f"{a}root{b}={result}")
                         break
                     except ValueError:
-                        print("please eneter a number not a string ")
+                        print("please eneter a number ")
                     except NegativeNumberError:
                         print("can do only Real numbers. Please try again")
             case 7: 
@@ -100,7 +101,7 @@ def menu():
                         print(f"|{a}|={result}")
                         break
                     except ValueError:
-                        print("please eneter a number not a string ")
+                        print("please eneter a number notr a string ")
             case 8:
                 while True:
                     try:
@@ -117,8 +118,8 @@ def menu():
                 while True:
                     try:
                         a = int(input("the both sides value"))
-                        b = int(input("the top and bottom value. Optional"))
-                        result = calc_square_area(a,b=a)
+                        b = int(input("the top & bottom value"))
+                        result = calc_square_area(a,b)
                         print(f"height:{a}, base:{b} ={result}")
                         break
                     except ValueError:
