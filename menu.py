@@ -89,7 +89,7 @@ def menu():
                         print(f"{a}root{b}={result}")
                         break
                     except ValueError:
-                        print("please eneter a number ")
+                        print("please eneter a number not a string ")
                     except NegativeNumberError:
                         print("can do only Real numbers. Please try again")
             case 7: 
@@ -100,7 +100,7 @@ def menu():
                         print(f"|{a}|={result}")
                         break
                     except ValueError:
-                        print("please eneter a number notr a string ")
+                        print("please eneter a number not a string ")
             case 8:
                 while True:
                     try:
