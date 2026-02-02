@@ -1,4 +1,4 @@
-from symple_function import multiply,divide,add,subtract,absolute_val,power
+from symple_function import multiply,divide,add,subtract,absolute_val,power,root
 from advance_function import calc_circle_area,calc_triangle_area,calc_square_area
 from class_error import NegativeNumberError, ZeroPowerZeroError
 
