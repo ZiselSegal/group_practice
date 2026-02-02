@@ -1,5 +1,6 @@
 from symple_function import multiply,divide,add,subtract,absolute_val,power
 from advance_function import calc_circle_area,calc_triangle_area,calc_square_area
+from class_error import NegativeNumberError, ZeroPowerZeroError
 
 def menu():
     while True:
@@ -75,6 +76,10 @@ def menu():
                         break
                     except ValueError:
                         print("please eneter a number not a string ")
+                    except ZeroPowerZeroError:
+                        print("0^0 is undefined. Please try again")
+                    except NegativeNumberError:
+                        print("0^(negative value) is undefioned. Please try again")
             case 6:
                 while True:
                     try:
@@ -85,6 +90,8 @@ def menu():
                         break
                     except ValueError:
                         print("please eneter a number ")
+                    except NegativeNumberError:
+                        print("can do only Real numbers. Please try again")
             case 7: 
                 while True:
                     try:
@@ -104,6 +111,8 @@ def menu():
                         break
                     except ValueError:
                         print("please eneter a number not a string")
+                    except NegativeNumberError:
+                        print("geometric values must be positive. please try again ")
             case 9:
                 while True:
                     try:
@@ -114,6 +123,8 @@ def menu():
                         break
                     except ValueError:
                         print("please eneter a number not a string ")
+                    except NegativeNumberError:
+                        print("geometric values must be positive. please try again ")
             case 10:
                 while True:
                     try:
@@ -124,5 +135,7 @@ def menu():
                         break
                     except ValueError:
                         print("please eneter a number not a string ")
+                    except NegativeNumberError:
+                        print("geometric values must be positive. please try again ")
             case _:
                 print("sorry no such function")
