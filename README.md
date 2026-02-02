@@ -2,9 +2,9 @@
 A comprehensive calculator application
 
 ## Authors
-1.Zisel Segal
-2.Yaakov Eisenstein
-3.Yaakov Vizel
+1. Zisel Segal
+2. Yaakov Eisenstein
+3. Yaakov Vizel
 
 ## Project Structure 
 the application is divided into four logic-based files:

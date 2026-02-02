@@ -20,3 +20,11 @@ def power(num1,num2):
 #returns the absolute value of num
 def absolute_val(num1):
     return abs(num1)
+
+#returns num1 in root num2
+def root(num1,num2):
+    if num1 < 0 :
+        return 'error you cannot calculate a negative number'
+    else:
+        return num1 ** (1/num2)
+   
